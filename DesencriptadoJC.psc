@@ -1,18 +1,18 @@
 //Jeremias Luis Alejandro Briceño Valdes
 Algoritmo Desencriptado	
 	//se define las variables donde se guardaran el mensaje a convertir y la lave del mismo
-	Definir mensaje,llave Como Caracter
+	Definir codigo,llave Como Caracter
 	//se define la variable en la que se convertira la llave
 	Definir llaveF Como Entero
 	//se pide el mensaje a desifrar
-	Escribir "ingrese mensaje a desifrar"
-	Leer mensaje
+	Escribir "ingrese mensaje encriptado"
+	Leer codigo
 	//se evalua que la longitud de el mensaje sea entre 1 a 60 caracteres
-	Si (longitud(mensaje)>60 o longitud(codigo)<1) Entonces
+	Si (longitud(codigo)>60 o longitud(codigo)<1) Entonces
 		Escribir "Error,Ingrese una cantidad de entre 1 a 60 caracteres"
 	SiNo
 		//se ponen todos los caracteres en mayusculas
-		mensaje <-Mayusculas(mensaje)
+		mensaje <-Mayusculas(codigo)
 		//se pide la llave de desifrado
 		Escribir "ingrese la clave de acceso"
 		//se lee el caso
@@ -33,3 +33,11 @@ Algoritmo Desencriptado
 		
 	Fin Si
 FinAlgoritmo
+//se crea funsion que recibe los valores solicitados y devolviendo el mensaje desencriptado
+Funcion mensaje <- clave(texto1,numero2)
+	//se define las variables que contienen las letras y el mensaje
+	Definir abcdario,mensaje Como Caracter
+	//se define tipo de numero para convertir con el codigo cesar
+	Definir indicador1,indicador2,inidcador3 Como Entero
+	FinFuncion
+	
