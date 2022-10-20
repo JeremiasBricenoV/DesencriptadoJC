@@ -39,5 +39,37 @@ Funcion mensaje <- clave(texto1,numero2)
 	Definir abcdario,mensaje Como Caracter
 	//se define tipo de numero para convertir con el codigo cesar
 	Definir indicador1,indicador2,inidcador3 Como Entero
+	//inicio de variable mensaje
+	mensaje=''
+	//se dimenciona el abcdario y se rellena con las letras
+	Dimension abcdario[27]
+	abcdario[1]=' ';
+	abcdario[2]='A';
+	abcdario[3]='B';
+	abcdario[4]='C';
+	abcdario[5]='D';
+	abcdario[6]='E';
+	abcdario[7]='F';
+	abcdario[8]='G';
+	abcdario[9]='H';
+	abcdario[10]='I';
+	abcdario[11]='J';
+	abcdario[12]='K';
+	abcdario[13]='L';
+	abcdario[14]='M';
+	abcdario[15]='N';
+	abcdario[16]='O';
+	abcdario[17]='p';
+	abcdario[18]='Q';
+	abcdario[19]='R';
+	abcdario[20]='S';
+	abcdario[21]='T';
+	abcdario[22]='U';
+	abcdario[23]='V';
+	abcdario[24]='W';
+	abcdario[25]='X';
+	abcdario[26]='Y';
+	abcdario[27]='Z';
+	
 	FinFuncion
 	
